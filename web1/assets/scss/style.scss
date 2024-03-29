@@ -1,0 +1,84 @@
+/* =======================================================================
+Template Name: Youtubers
+Author:  SmartEye Technologies
+Author URI: www.smarteyeapps.com
+Version: 1.0
+coder name:Prabin Raja
+Description: This Template is created for Youtubers
+======================================================================= */
+
+/* ===================================== Import Variables ================================== */
+@import 'variable';
+/* ===================================== Basic CSS ==================================== */
+@import 'base/basic_setup';
+
+/* ===================================== Basic CSS ==================================== */
+@import 'base/bootstrap';
+
+
+.head{
+    position: fixed;
+    background-color: #fff;
+    width: 260px;
+    height: 100vh;
+    @media screen and (max-width: 991px) {
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    @include shado-3();
+    .logo{
+       
+        padding: 15px;
+        img{
+            max-width: 250px; 
+        }
+        @media screen and (max-width: 991px) {
+             padding: 20px 15px;
+        }
+    }
+    .navcol{
+        padding-top: 15px;
+        ul{
+            li{
+                padding: 15px 30px;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: .9rem;
+            }
+        }
+    }
+    .navbar-toggler{
+        float: right;
+          margin-top: 10px;
+         padding-right: 0px;
+        i{
+            font-size: 2rem;
+           
+           
+        }
+        
+    }
+}
+.main-content{
+    margin-left: 260px;
+    @media screen and (max-width: 991px) {
+        margin-left: 0px;
+    }
+}
+
+
+html {
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+.profile-head{
+    img{
+        max-width: 270px;
+    }
+}
